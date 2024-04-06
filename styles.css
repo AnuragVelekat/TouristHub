@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-image: url("https://w0.peakpx.com/wallpaper/700/152/HD-wallpaper-mountains-in-dark-night-background-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hero a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav li:hover {
+  color: white;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  text-align: center;
+}
+
+.container h2,
+h5 {
+  text-transform: uppercase;
+}
+
+.container h2 {
+  font-size: 40px;
+}
+
+.container h5 {
+  font-size: 25px;
+  padding: 2px;
+}
+
+.email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.email-input button {
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.email-input button:hover {
+  background-color: darkorange;
+  scale: 1.1;
+  transition: ease-in-out 0.2s;
+}
+
+.email-input input {
+  width: 50vw;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+}
+
+.deals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  margin-bottom: 50px;
+}
+
+.deals h1 {
+  color: #252d5c;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.2s;
+}
+
+.ocean {
+  color: #392f83;
+  font-weight: 700;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.destinations h1 {
+  color: #252d5c;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.carousel-item h3 {
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
